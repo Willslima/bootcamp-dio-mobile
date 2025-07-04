@@ -1,0 +1,19 @@
+{
+  "name": "meu-primeiro-projeto",
+  "version": "1.0.0",
+  "description": "primeiro projeto node do bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willslima/bootcamp-dio-mobile.git"
+  },
+  "author": "willslima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willslima/bootcamp-dio-mobile/issues"
+  },
+  "homepage": "https://github.com/Willslima/bootcamp-dio-mobile#readme"
+}
