@@ -15,3 +15,5 @@ Comando para monitorar o server e reiniciar quando tiver alteração
 
 05/07/25 - Projeto do simulador de corridas do mario kart com node.js
 
+06/07/25 - Learn about commonJS and beginning write description in english
+
