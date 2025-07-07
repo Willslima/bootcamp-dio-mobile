@@ -1,22 +1,16 @@
-const product = require("./services/products")
+const { getFullName, getProductName } = require("./services/products")
 const config = require("./services/config")
 const dataBase = require("./services/database")
 
 async function main() {
-    console.log("Hello my name's system")
+    console.log("Carrinho de compras: ")
     
-    product.getFullName("408","Mousepad")
-    product.getProductName("Mouse")
+    getFullName("1","Teclado")
+    getFullName("2","Mouse")
 
-    // console.log(config.devArea.production)
-    // console.log(config.client.device)
-    // console.log(product.productType.version)
-    
-    console.log("Carrinho compras:")
+    getProductName("Mouse")
 
-    dataBase.connectToDatabase(
-        "Produtos da vitrine"
-    )
+    dataBase.connectToDatabase("my-data")
 }
 
 main()
