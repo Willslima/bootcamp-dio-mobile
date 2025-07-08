@@ -17,3 +17,4 @@ Comando para monitorar o server e reiniciar quando tiver alteração
 
 06/07/25 - Learn about commonJS and beginning write description in english
 
+07/07/25 - Learn about ECMA Script modules
